@@ -1,0 +1,22 @@
+{
+  "name": "testFlask",
+  "version": "1.0.0",
+  "description": "Test Flask and WebPack",
+  "main": "index.js",
+  "author": "Radu W",
+  "license": "MIT",
+  "devDependencies": {
+    "ts-loader": "^6.2.2",
+    "typescript": "^3.8.3",
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.11"
+  },
+  "scripts": {
+    "build": "webpack --config webpack.config.js",
+    "watch": "webpack --watch --config webpack.config.js",
+    "start": "webpack-dev-server "
+  },
+  "dependencies": {
+    "webpack-dev-server": "^3.10.3"
+  }
+}
